@@ -1,24 +1,29 @@
 # Project Name
 
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Brent Williams, Steve Starwalt
+**Version**: 1.0.0 
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+Build a web page that will to be able to filter articles so that the user can selectively view articles by author or by category, preview each article so that the user can easily view the results and select the one they want to read further.
+In addition the site needs tab-based navigation so that the user can easily visit other sections of the site.
+Finally, I want my code to be thoughtfully organized, easy to read, and executing efficiently.
+
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+If you wish to build this site you will need to organized your HTML to be able to be populated by JWQuery and use a SMACSS style CSS.  Your JS files need will to use JQuery for accessing the DOM and you will need to have the blog articles formatted with the proper HTML elements in the body so they will display correctly. Finally you will need to understand evemt listners and how to use them on multiple parts of your DOM.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+First we used a starter code from Allie that had the HTML formated in a simple matter so the details of the page were made with the JS files using JQuery.  The CSS uses a SMACSS format. The articles are displayed by using JQuery to acess and modify the DOM and insert the content which is stored in a serperate js file.  Each article is truncated with by a JQuery .hide and be be fullassesed using an event listner atached the the article tht will invove a function to display the entire article.  Finally, the tabs will hide all the elements in the main section of the DOM and only diplay the information associated with the tab selected.     
 
 ## Change Log
 0900 - 09030 reviewed existing code
 0930 - 0945 TODO on HTML and article.js
 0945 - 1030 TODO made filters work on articleView.js
-1030 swapped navigator driver
+1030 - swapped navigator driver
+1100 - got the main nave working
+1150 - got the teasers working
 
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Allie Grampa provided the starter code.  We used the oscarotero.com JQuery cheat sheet which is linkewd to JQuery.com. We used some of the cose from the demo to help solve some problems as well.  Finally MDN was used as a reference throughout.
 -->
